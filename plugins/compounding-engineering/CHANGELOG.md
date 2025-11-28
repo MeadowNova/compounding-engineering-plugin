@@ -5,6 +5,12 @@ All notable changes to the compounding-engineering plugin will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.8.0] - 2025-11-27
+
+### Added
+
+- **`julik-frontend-races-reviewer` agent** - New review agent specializing in JavaScript and Stimulus code race conditions. Reviews frontend code with Julik's eye for timing issues, DOM event handling, promise management, setTimeout/setInterval cleanup, CSS animations, and concurrent operation tracking. Includes patterns for Hotwire/Turbo compatibility and state machine recommendations.
+
 ## [2.7.0] - 2025-11-27
 
 ### Changed
